@@ -30,4 +30,4 @@ var val = animation.quad.easeIn(0,10,50-10,100);
     agr4: duration（持续时间）<br>
 </li>
 </ul>
-![]('src/算法.png')
+![]('https://img.wuage.com/147635054616625%E7%AE%97%E6%B3%95.png')
