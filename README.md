@@ -9,8 +9,7 @@ var val = animation.quad.easeIn(0,10,50-10,100);
 </pre>
 ##Api
 <ul>
-<li>requestAnimationFrame</li>
-<li>cancelAnimationFrame</li>
+<li>animate</li>
 <li>quad</li>
 <li>cubic</li>
 <li>quart</li>

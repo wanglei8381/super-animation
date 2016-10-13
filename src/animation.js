@@ -1,7 +1,6 @@
 var lastTime = 0;
 
-exports.requestAnimationFrame =
-    window.requestAnimationFrame ||
+var animate = window.requestAnimationFrame ||
     window.webkitRequestAnimationFrame ||
     window.mozRequestAnimationFrame ||
     function (callback) {
@@ -14,9 +13,14 @@ exports.requestAnimationFrame =
         return id;
     };
 
-exports.cancelAnimationFrame = window.cancelAnimationFrame ||
+var cancelAnimation = window.cancelAnimationFrame ||
     window.webkitCancelAnimationFrame ||
     window.mozCancelAnimationFrame ||
     function (id) {
         clearTimeout(id);
     };
+
+module.exports = function (cb) {
+    typeof cb === 'function' ? animate(cb) : cancelAnimation(cb);
+};
+
