@@ -1,0 +1,19 @@
+{
+  "name": "super-animation",
+  "version": "0.0.1",
+  "description": "动画算法",
+  "license": "MIT",
+  "main": "index.js",
+  "author": "wanglei",
+  "keywords": [
+    "super-animation",
+    "animation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wanglei8381/super-animation.git"
+  },
+  "bugs": {
+    "url": "git@github.com:wanglei8381/super-animation.git/issues"
+  }
+}
