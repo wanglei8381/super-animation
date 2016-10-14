@@ -21,6 +21,6 @@ var cancelAnimation = window.cancelAnimationFrame ||
     };
 
 module.exports = function (cb) {
-    typeof cb === 'function' ? animate(cb) : cancelAnimation(cb);
+    return typeof cb === 'function' ? animate(cb) : cancelAnimation(cb);
 };
 
