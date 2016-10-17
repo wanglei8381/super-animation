@@ -1,6 +1,6 @@
 {
   "name": "super-animation",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "动画算法",
   "license": "MIT",
   "main": "src/index.js",

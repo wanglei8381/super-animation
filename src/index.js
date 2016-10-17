@@ -1,2 +1,4 @@
-var $ = module.exports = require('./algorithm');
-$.animate = require('./animation');
+module.exports = require('./algorithm');
+if (typeof window !== 'undefined') {
+    require('./animation');
+}
